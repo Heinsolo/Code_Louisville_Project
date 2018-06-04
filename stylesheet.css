@@ -1,23 +1,17 @@
 header {
   margin: none;
-  padding: 20px;
   text-align: center;
   font-family: sans-serif;
   background-color: white;
-
 }
 
 body{
   background-color: #B4E4E5;
-  font-family: sans-serif;
+  font-family: block;
 }
 
 h1 {
   text-align: center;
-}
-
-.intro {
-   margin: none;
 }
 
 h2 {
@@ -29,18 +23,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  border-radius: 8px;
-
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  float: left;
+  width: 10%;
+  border: none;
+  border-radius: 50%;
 }
 
 a {
@@ -50,11 +35,10 @@ a {
 }
 
 footer {
-  padding: 25px;
   text-align: center;
-  background-color: green;
+  background-color: tomato;
   border: solid gold;
-  position: fixed;
-  margin-bottom: 0%;
+  width: 100%
+
 
 }
