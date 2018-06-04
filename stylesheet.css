@@ -19,19 +19,12 @@ h2 {
   padding: 20px;
 }
 
-img {
+.piano {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
-  border: none;
-  border-radius: 50%;
-}
+  width: 30%;
 
-a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
 }
 
 footer {
@@ -39,6 +32,13 @@ footer {
   background-color: tomato;
   border: solid gold;
   width: 100%
+  padding: 10px;
+}
 
+.Jacob {
+  height: 75px;
+  width: 75px;
+  float: left;
+  display: inline;
 
 }
