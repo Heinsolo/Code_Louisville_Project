@@ -5,6 +5,25 @@ header {
   background-color: white;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 100px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
 body{
   background-color: #B4E4E5;
   font-family: block;
@@ -15,12 +34,13 @@ h1 {
 }
 
 h2 {
+  display: float;
   text-align: center;
   padding: 20px;
 }
 
 .piano {
-  display: block;
+  display: center;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
@@ -29,16 +49,6 @@ h2 {
 
 footer {
   text-align: center;
-  background-color: tomato;
-  border: solid gold;
   width: 100%
   padding: 10px;
-}
-
-.Jacob {
-  height: 75px;
-  width: 75px;
-  float: left;
-  display: inline;
-
 }
