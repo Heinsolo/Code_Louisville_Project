@@ -1,12 +1,14 @@
 header {
-  margin: none;
+  margin: 0;
   text-align: center;
   background-color: white;
   width: 100%;
 }
 
 body{
+  margin: 0;
   font-family: 'Spectral', sans-serif;
+  font-size: .85em;
 }
 h1 {
   text-align: center;
@@ -42,4 +44,9 @@ div {
   display: center;
   height: 250px;
   width: 250px;
+}
+
+#nav-bar {
+  float:right;
+
 }
