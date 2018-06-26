@@ -3,42 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Jacob Hein</title>
+    <!--<script src="script.js"></script>-->
   </head>
 
 <!--Header and Jumbotron. This is the top of the page-->
 
-    <div class="jumbotron">
-        <h1>Jacob Hein's Piano</h1>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Code Louisville Project</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#anatomy">Anatomy</a></li>
+        <li><a href="#tuning">Tuning</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <ul>
-          <li><a href="#tuning.html">Tuning</a></li>
-          <li><a href="#anatomy.html">Anatomy of the Piano</a></li>
-          <li><a href="#help.html">Help</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>Piano Anatomy and Maintenance</h1>
+        <h2>Welcome to my Website!</h2>
+    </div>
 
   <body>
 
-    <h2>Welcome to my website!</h2>
+
+
+<!--- This is the anatomy portion of the site. Should be in a nice container with text wrapping around image.-->
+
 
     <div>
-
-      <section class="anatomy">
-        <h3>Anatomy of the Piano</h3>
-          <img src="piano anatomy.jpg" alt="Anatomy of the Piano">
+      <section id="anatomy" class="anatomy">
+        <h3 class="title">Anatomy of the Piano</h3>
+          <img src="piano anatomy.jpg" alt="Anatomy of the Piano" id="anatomy_img">
             <p>
               The anatomy of the piano is very simple in its basic form. The instrument, while large, consists of some pretty large aspects that are intigral in the function of music-making.
             </p>
             <p>
               Some of the main parts of the piano include:
+                <img id="action" src="piano-action.jpg" alt="Piano Action">
                 <ul>
                   <li>Cabinet</li>
                   <li>Action</li>
@@ -51,11 +68,11 @@
             <p>
               The way in which the piano is pieced together is overall pretty complicated, but can be summed up with a few points. Firstly, the <strong>action</strong> holds the responsibility for housing the keyboard in which the hands play on. This very complicated mechanism holds the most integral parts that are involved with the hammers &#40;which are activated by the keys from the keyboard&#41;, striking the strings. Holding down the sustain pedal will raise the mutes from the strings, allowing the strings to vibrate as long as you'd like!
             </p>
-          <img class="action" src="piano-action.jpg" alt="Piano Action">
+
         </section>
 
-        <section class="tuning">
-          <h3>Tuning the Piano</h3>
+        <section id="tuning" class="tuning">
+          <h3 class="title">Tuning the Piano</h3>
           <img class="hammer" src="tuning_hammer.jpg" alt="Piano Tuning Hammer">
           <img class="fork" src="fork.jpg" alt="Tuning Fork">
             <p>
