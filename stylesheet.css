@@ -12,8 +12,9 @@
 }
 
 .anatomy,
-.tuning {
+.tuning, {
   margin-bottom: 200px;
+  margin-top: 200px;
 }
 
 #anatomy_img {
@@ -24,11 +25,19 @@
 }
 
 #action {
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 450px;
   float: right;
   margin-bottom: 20px;
   padding-left: 2em;
+  padding-right: 2em;
+}
+
+#hammer {
+  float: left;
+  padding-right: 2em;
+  height: 400px;
+  width: 450px;
 }
 
 .title {
