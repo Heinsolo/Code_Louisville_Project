@@ -11,31 +11,34 @@
   color: white !important;
 }
 
-.anatomy,
-.tuning, {
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.anatomy {
   margin-bottom: 200px;
-  margin-top: 200px;
 }
 
 #anatomy_img {
-  float: left;
-  padding-right: 2em;
+  float: top;
+  padding-bottom: 1em;
   height: 400px;
   width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #action {
-  height: 400px;
-  width: 450px;
+  height: 300px;
+  width: 375px;
   float: right;
-  margin-bottom: 20px;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
 }
 
 #hammer {
   float: left;
-  padding-right: 2em;
   height: 400px;
   width: 450px;
 }
@@ -49,4 +52,22 @@
 .hammer {
   height: 350px;
   width: 350px;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+}
+
+
+/* ===================================
+  Media Queries
+====================================*/
+
+@media (min-width: 769px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
