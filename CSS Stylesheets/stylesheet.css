@@ -17,9 +17,18 @@
 }
 
 .anatomy {
-  margin-bottom: 200px;
+  padding-bottom: 200px;
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+/* ===================================
+  Image Properties
+====================================*/
 #anatomy_img {
   float: top;
   padding-bottom: 1em;
@@ -39,26 +48,7 @@
 
 #hammer {
   float: left;
-  height: 400px;
-  width: 450px;
 }
-
-.title {
-  text-align: center;
-  margin-bottom: 1em;
-  text-decoration: underline;
-}
-
-.hammer {
-  height: 350px;
-  width: 350px;
-}
-
-footer {
-  background-color: grey;
-  text-align: center;
-}
-
 
 /* ===================================
   Media Queries
