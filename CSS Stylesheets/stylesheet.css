@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(color-keyboard.jpg);
+  background-image: url(../images/color-keyboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -26,6 +26,11 @@
   text-decoration: underline;
 }
 
+footer {
+  text-align: center;
+  background-color: #FDE8B2;
+}
+
 /* ===================================
   Image Properties
 ====================================*/
@@ -46,8 +51,24 @@
   padding-left: 1em;
 }
 
+#side_hammer {
+  width: 100%
+  height: auto;
+}
+
 #hammer {
   float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 75%
+  padding-right: 1em;
+}
+
+#fork {
+  float: right;
+  padding-left: 1em;
+  height: 255px;
+  width: 200px;
 }
 
 /* ===================================
