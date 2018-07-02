@@ -1,0 +1,98 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/color-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .h1, .jumbotron h1, .jumbotron h2 {
+  color: white !important;
+  padding-bottom: -15px;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 120%;
+  background-color: grey;
+  color: white;
+}
+
+body {
+  font-family: 'Arvo', sans-serif;
+}
+
+.anatomy,
+.hammer {
+  padding-bottom: 3em;
+}
+
+.list-items {
+  list-style-image: url("images/music-note.jpg");
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+#anatomy {
+  padding-top: 30px;
+  margin-top: -30px;
+}
+
+footer {
+  text-align: center;
+  background-color: #FDE8B2;
+  margin-top: 10px;
+}
+
+/* ===================================
+  Image Properties
+====================================*/
+#anatomy_img {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  height: auto;
+  width: 50%;
+}
+
+#side_hammer {
+  width: 35%;
+  height: auto;
+  float: right;
+  padding-left: 2em;
+}
+
+#hammer {
+  float: left;
+  height: auto;
+  width: 25%;
+  padding-right: 1em;
+}
+
+#fork {
+  float: right;
+  padding-left: 1em;
+  height: auto;
+  width: 25%;
+}
+
+/* ===================================
+  Media Queries
+====================================*/
+
+@media (max-width: 769px) {
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .jumbotron {
+    text-align: center;
+  }
+}
