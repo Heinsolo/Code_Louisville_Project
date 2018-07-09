@@ -1,1 +1,1 @@
-$('.collapse').collapse()
+

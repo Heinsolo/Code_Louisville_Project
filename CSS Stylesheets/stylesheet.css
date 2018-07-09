@@ -96,3 +96,9 @@ footer {
     text-align: center;
   }
 }
+
+@media (min-width: 770px) {
+  .jumbotron {
+    text-align: center;
+  }
+}
