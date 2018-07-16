@@ -44,6 +44,25 @@ body {
   margin-top: -30px;
 }
 
+.button {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.form {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_in_form {
+  margin-top: 1em;
+}
+
 footer {
   text-align: center;
   background-color: #FDE8B2;
@@ -71,7 +90,7 @@ footer {
 #hammer {
   float: left;
   height: auto;
-  width: 25%;
+  width: 20%;
   padding-right: 1em;
 }
 
@@ -80,6 +99,16 @@ footer {
   padding-left: 1em;
   height: auto;
   width: 25%;
+}
+
+/* ===================================
+  Form Field Attributes
+====================================*/
+
+#name,
+#mail {
+  width: 15%;
+  align-items: center;
 }
 
 /* ===================================
