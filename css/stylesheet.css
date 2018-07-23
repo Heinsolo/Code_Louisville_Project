@@ -12,9 +12,14 @@
   padding-bottom: -15px;
 }
 
+.jumbotron {
+  text-align: center;
+}
+
 .container {
   padding-left: 1em;
   padding-right: 1em;
+  padding-bottom: 5px;
   font-size: 120%;
   background-color: grey;
   color: white;
@@ -42,6 +47,10 @@ body {
 
 .form {
   display: none;
+}
+
+.form-title {
+  text-align: center;
 }
 
 form {
@@ -119,18 +128,16 @@ footer {
 ====================================*/
 
 @media (max-width: 769px) {
-  .container {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .jumbotron {
-    text-align: center;
-  }
-}
 
-@media (min-width: 770px) {
-  .jumbotron {
-    text-align: center;
+  #anatomy_img,
+  #side_hammer {
+    width: 100%;
+    padding: 0em;
+  }
+  #hammer {
+    width: 75%;
+    float: none;
+    display: block;
+    margin: auto;
   }
 }
