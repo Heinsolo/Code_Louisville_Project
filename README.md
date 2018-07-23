@@ -1,7 +1,7 @@
 # Code_Louisville_Project
 
-Hello!
+This is my site for my Code Louisville Project from July 2018.
 
-Password for the website is Rowdy
+Please download the file from GitHub and open the index-final.html file.
 
-Call me at 648-0396 if you have any additional questions. 
+Call me at 648-0396 if you have any additional questions.
