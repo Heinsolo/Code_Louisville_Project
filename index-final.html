@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="scripts/script.js"></script>
+
+    <title>Jacob Hein</title>
+
+  </head>
+
+<!--Header and Jumbotron. This is the top of the page-->
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Code Louisville Project</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+              <li><a href="#anatomy">Anatomy</a></li>
+              <li><a href="#hammers">Hammers</a></li>
+              <li><a href="#tuning">Tuning</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span>Have Fun!</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+          <h1>Piano Anatomy and Maintenance</h1>
+          <h2>Welcome to my Website!</h2>
+
+      </div>
+
+
+
+
+
+  <!--- This is the anatomy portion of the site. Should be in a nice container with text wrapping around image.-->
+
+
+      <div class="container">
+        <section id="anatomy" class="anatomy">
+          <h3 class="title">Anatomy of the Piano</h3>
+            <img src="images/piano_anatomy.jpg" alt="Anatomy of the Piano" id="anatomy_img">
+              <p>
+                The anatomy of the piano is very simple in its basic form. The instrument, while large overall, consists of many smaller aspects that are intigral in the function of music-making.
+              </p>
+              <p>
+                Some of the main parts of the piano include:
+                  <ul>
+                    <li>Cabinet</li>
+                    <li>Action</li>
+                    <li>Soundboard</li>
+                    <li>Cast Iron Plate</li>
+                    <li>Strings</li>
+                    <li>Hammers</li>
+                  </ul>
+              </p>
+              <p>
+                The way in which the piano is pieced together is overall pretty complicated, but can be summed up with a few points. Firstly, the <strong>action</strong> holds the responsibility for housing the keyboard in which the hands play on. This very complicated mechanism holds the most integral parts that are involved with the hammers &#40;which are activated by the keys from the keyboard&#41;, striking the strings. Holding down the sustain pedal will raise the mutes from the strings, allowing the strings to vibrate as long as you'd like!
+              </p>
+
+
+          </section>
+
+          <section id="hammers" class="hammer">
+            <h3 class="title">The Hammer Mechanism</h3>
+            <img id="side_hammer" src="images/hammer.jpg" alt="Hammer Mechanism from the Side">
+
+              <p>The hammer is what is responsible for striking the string or strings above it. The hammers are activated by the keys in the mechanism that you can see on the left. If you press the key downward, the hammer is forced up to hit the string. As you can see, through some complicated mechanics, the force in which you use to push down on the key itself will in turn vary the speed at which the hammer strikes the string. This is how pianists can utilize volume, or <strong>dynamics</strong>, in music.
+              </p>
+
+          </section>
+
+          <section id="tuning" class="tuning">
+            <h3 class="title">Tuning the Piano</h3>
+            <img id="hammer" src="images/tuning_hammer.jpg" alt="Piano Tuning Hammer">
+            <img id="fork" src="images/fork.jpg" alt="Tuning Fork">
+              <p>
+                When we tune a piano, we use a special tool called a <strong>tuning hammer.</strong> The picture to the left shows how the end of the tool locks into the tuning pins, and turns them to adjust the pitch of the string. This works very much like tuning a guitar. A peg is turned to stretch or loosen a string to properly tune it to the correct pitch. The first strings that are tuned are assigned to the <q>A</q> key. This pitch is tuned to 440Hz and is used as the basis to tune the rest of the keys relative to it. In order to obtain true A440, a tuning fork, pictured right, is struck and gives the tuner the correct A440 pitch in which to tune the rest of the strings.
+              </p>
+
+        </section>
+      </div>
+
+      <div class="button">
+
+        <button type="button" name="button">Sign Up Here!</button>
+      </div>
+
+<!--- This area is the form for sign ups to follow my site.-->
+
+  <div class="form">
+
+    <form action="index.html" method="post">
+      <h1>Learn More About Pianos!</h1>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+
+      <button type="button" class="button_in_form">Sign Up!</button>
+      <button type="button" class="cancel">Cancel</button>
+    </form>
+  </div>
+
+
+  </body>
+  <footer>
+    Jacob Hein<br />
+    Web Developer <br>
+    Louisville, KY <br>
+    502-648-0396
+  </footer>
+
+<script src="scripts/jquery.js"></script>
+</html>
